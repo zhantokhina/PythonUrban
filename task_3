@@ -1,0 +1,11 @@
+# Написать функцию get_mean_green_index, которая в качестве аргумента принимает список объектов типа GreenZoneIndex и считает от них средний индекс озеленения
+
+from task_2 import green_zone_list
+from statistics import mean
+
+def get_mean_green_index (green_zone_list):
+
+    average_green_index = [territory.calculate_green_index() for territory in green_zone_list]
+    return mean((average_green_index))
+
+print(f"Cредний индекс озеленения: {get_mean_green_index(green_zone_list)}")
