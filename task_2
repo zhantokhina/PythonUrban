@@ -1,5 +1,7 @@
 # Дан список словарей территорий,cделать новый список с объектами ранее реализованного типа GreenZoneIndex
 
+from task_1 import GreenZoneIndex
+
 list_territories = [
     {
         "territory_name": "Пушкин",
