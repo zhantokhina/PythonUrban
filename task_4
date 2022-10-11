@@ -1,0 +1,9 @@
+from task_2 import green_zone_list
+min_list = []
+
+def filter_min_green_index(green_zone_list, min_green = 0.1):
+    if green_index in green_zone_list >= min_green:
+       min_list.append (GreenZoneIndex(territory ["territory_name"], territory ["territory_area"], territory ["green_zones"]))
+    else:
+        ...
+print (len(min_list))
